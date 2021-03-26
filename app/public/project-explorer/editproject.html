@@ -60,113 +60,81 @@
         <div class="col d-flex justify-content-end">
           <a href="viewproject.html" type="submit" class="btn btn-primary btn-lg">View Project</a>
         </div>
-        
+
     </div>
+</div>
 
 
-   <!--Edit Project Section--> 
-   
+<!--Edit Project and Manage Project 2 column Section-->
+<div class="container mx-auto p-4 w-100 align-items-auto">
+  
+  <div class="row">
+    <div class="col-md-6"> <!--first col-->
+      <h4 class="h3 mb-3 font-weight-bold">Edit Project T</h4>
+            <hr>
+      <form name="editProject">
 
-
-   <div class="container mx-auto p-4 w-100 align-items-auto">
-    <div class="row">
-    
-    <!--Start of first column-->
-    <div class="col-md-6">
-    <!--form code here-->
-    
-      <div >
-         
-              <h2 class="h3 mb-3 font-weight-bold">Edit Project</h2>
-              <hr>
-           
-          <form name="editProject">
-  
-          <div class="form-row">
-              <div class="form-group col">
-                <label for="inputProjectName" class="form-label">Project name</label>
-                <input type="text" name="name" class="form-control" id="inputProjectName" placeholder="Project 1" required>
-              </div>
-          </div>
-  
-          <div class="form-row">
-              <div class="form-group col">
-                <label for="inputProjectAb" class="form-label">Project abstract</label>
-                <textarea class="form-control" type="text" name="abstract" rows="6" id="inputProjectAb" placeholder="Projecr 1 is very intresting project" required></textarea>
-              </div>
-          </div>    
-  
-          <div class="form-row">
-              <div class="form-group col">
-                <label for="inputAuthors" class="form-label">Author(s)</label>
-                <input type="text" name="authors" class="form-control" id="inputAuthors" placeholder="Lagbayi Kayode" required>
-              </div>
-          </div>
-  
-          <div class="form-row">
-              <div class="form-group col">
-                <label for="inputAuthors" class="form-label">Tag(s)</label>
-                <input type="text" name="tags" class="form-control"  id="inputAuthors" placeholder="#web" required>
-              </div>
-          </div>
-   
-            <button type="submit" class="btn btn-primary">Save</button>  
-      </div>
-  </form>
-    <!--code end code here-->
-    </div>
-    
-  
-    
-    <!--Start of second column-->
-    <div class="col-md-6">
-    <!--code here-->
-    <form>
-      <div class="">
-          <div>
-              <h2 class="h3 mb-3 font-weight-bold">Manage Project files </h2>
-              <hr>
-          </div> 
-        
-    
-             <div class="col-md-12">
-                  <div class="input-group">	
-                        <input type="text" class="form-control" placeholder="click to open file browser">
-                      <div class="input-group-btn">
-                        <button type="button" class="browse btn btn-light">Browse</button>
-                      
-                      </div>		  
-                        
+              <div class="form-row">
+                  <div class="form-group col">
+                    <label for="inputProjectName" class="form-label">Project name</label>
+                    <input type="text" name="name" class="form-control" id="inputProjectName" placeholder="Project 1" required>
                   </div>
+              </div>
+      
+              <div class="form-row">
+                  <div class="form-group col">
+                    <label for="inputProjectAb" class="form-label">Project abstract</label>
+                    <textarea class="form-control" type="text" name="abstract" rows="6" id="inputProjectAb" placeholder="Projecr 1 is very intresting project" required></textarea>
                   </div>
-  
-            <!--<button type="submit" class="btn btn-primary">Continue</button>  -->
+              </div>    
+      
+              <div class="form-row">
+                  <div class="form-group col">
+                    <label for="inputAuthors" class="form-label">Author(s)</label>
+                    <input type="text" name="authors" class="form-control" id="inputAuthors" placeholder="Lagbayi Kayode" required>
+                  </div>
+              </div>
+      
+              <div class="form-row">
+                  <div class="form-group col">
+                    <label for="inputAuthors" class="form-label">Tag(s)</label>
+                    <input type="text" name="tags" class="form-control"  id="inputAuthors" placeholder="#web" required>
+                  </div>
+              </div>
+       
+                <button type="submit" class="btn btn-primary">Save</button>  
+        </form>
+    </div> <!--end of first col-->
+
+
+    <div class="col-md-6"> <!--begining of second col-->
+      <h4 class="h3 mb-3 font-weight-bold">Manage Project files T </h4>
+      <hr>
+
+      <form>
+        
+             <div class="input-group">	
+                   <input type="text" class="form-control" placeholder="click to open file browser">
+                 <div class="input-group-btn">
+                   <button type="button" class="browse btn btn-light">Browse</button>
+                 </div>		  
+             </div>
+      </form>
+      <hr>
+
+      <div class="card">
+        <div class="card-header">
+          Project files
+        </div>
+        <div class="card-body">
+          <p class="card-text text-center">No file uploaded yet</p>
+        </div>
       </div>
-  </form>
-  <hr>
-    <!--code end-->
-    <div class="card">
-      <div class="card-header">
-        Project files
-      </div>
-      <div class="card-body">
-        <p class="card-text text-center">No file uploaded yet</p>
-      </div>
-    </div>
+
+    </div> <!--end of second col-->
+  </div> <!--end of row div-->
   </div>
-    <!--end of second column-->
-    
-    </div>
-    </div>
-  </div>
-
-<!--Edit Project 2-->
-
-
-
-
-
-
+  <!--Edit Project and Manage Project 2 column Section END !!!-->
 
 
 <!--The Main Footer-->
