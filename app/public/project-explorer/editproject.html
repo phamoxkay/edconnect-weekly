@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Explorer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+
+ <!-- Headeer and Navbar Section-->
+ 
+ <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+        <div class="navbar-header">
+    <a class="navbar-brand" href="#" >Project Explorer</a>
+        </div> 
+        <form class="form-inline my-2 my-lg-0 mr-auto">
+            <input class="form-control mr-sm-2" type="text"  name="SearchForm" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0 btn-primary" type="submit">Search</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form> 
+     
+        <div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Sign up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="login.html">Login</a>
+                  </li>
+            </ul>
+        </div>
+    </div>             
+</nav>
+<main role="main">
+
+<!--Main Edit Project Part Project 1-->
+
+<div class="container mx-auto w-75 p-4">
+    <p><strong>Project 1</strong></p>
+    
+    <div class="row bg-light">
+        <div class="col">
+            <p>Created By</p>
+            <p> Lagbayi Kayode</p>
+        </div>
+
+        <div class="col">
+            <p>Date Created</p>
+            <p>2021-03-25</p>
+        </div>
+
+        <div class="col">
+            <p>Last Updated</p>
+            <p>2021-03-25</p>
+        </div>
+
+        <div class="col d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary btn-lg">View Project</button>    
+        </div>
+    </div>
+
+
+   <!--Edit Project Section--> 
+   
+
+
+   <div class="container mx-auto p-4 w-100 align-items-auto">
+    <div class="row">
+    
+    <!--Start of first column-->
+    <div class="col-md-6">
+    <!--form code here-->
+    <form>
+      <div >
+          <div>
+              <h2 class="h3 mb-3 font-weight-bold">Edit Project</h2>
+              <hr>
+          </div> 
+  
+          <div class="form-row">
+              <div class="form-group col">
+                <label for="inputProjectName" class="form-label">Project name</label>
+                <input type="text" class="form-control" id="inputProjectName" placeholder="Project 1" required>
+              </div>
+          </div>
+  
+          <div class="form-row">
+              <div class="form-group col">
+                <label for="inputProjectAb" class="form-label">Project abstract</label>
+                <textarea class="form-control" rows="6" id="inputProjectAb" placeholder="Projecr 1 is very intresting project" required></textarea>
+              </div>
+          </div>    
+  
+          <div class="form-row">
+              <div class="form-group col">
+                <label for="inputAuthors" class="form-label">Author(s)</label>
+                <input type="text" class="form-control" id="inputAuthors" placeholder="Lagbayi Kayode" required>
+              </div>
+          </div>
+  
+          <div class="form-row">
+              <div class="form-group col">
+                <label for="inputAuthors" class="form-label">Tag(s)</label>
+                <input type="text" class="form-control" id="inputAuthors" placeholder="#web" required>
+              </div>
+          </div>
+   
+            <button type="submit" class="btn btn-primary">Save</button>  
+      </div>
+  </form>
+    <!--code end code here-->
+    </div>
+    
+  
+    
+    <!--Start of second column-->
+    <div class="col-md-6">
+    <!--code here-->
+    <form>
+      <div class="">
+          <div>
+              <h2 class="h3 mb-3 font-weight-bold">Manage Project files </h2>
+              <hr>
+          </div> 
+        
+    
+             <div class="col-md-12">
+                  <div class="input-group">	
+                        <input type="text" class="form-control" placeholder="click to open file browser">
+                      <div class="input-group-btn">
+                        <button type="button" class="browse btn btn-light">Browse</button>
+                      
+                      </div>		  
+                        
+                  </div>
+                  </div>
+  
+            <!--<button type="submit" class="btn btn-primary">Continue</button>  -->
+      </div>
+  </form>
+  <hr>
+    <!--code end-->
+    <div class="card">
+      <div class="card-header">
+        Project files
+      </div>
+      <div class="card-body">
+        <p class="card-text text-center">No file uploaded yet</p>
+      </div>
+    </div>
+  </div>
+    <!--end of second column-->
+    
+    </div>
+    </div>
+  </div>
+
+<!--Edit Project 2-->
+
+
+
+
+
+
+
+
+<!--The Main Footer-->
+<br>
+<footer class="card-footer bg-light">
+<p class="card-text text-right">Project Explorer &copy; 2020 Edconect</p>
+</footer>
+
+        </body>
+        </html>
+        

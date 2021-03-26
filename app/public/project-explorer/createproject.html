@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Explorer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+
+ <!-- Headeer and Navbar Section-->
+ 
+ <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+        <div class="navbar-header">
+    <a class="navbar-brand" href="#" >Project Explorer</a>
+        </div> 
+        <form class="form-inline my-2 my-lg-0 mr-auto">
+            <input class="form-control mr-sm-2" type="text"  name="SearchForm" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0 btn-primary" type="submit">Search</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form> 
+     
+        <div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Sign up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="login.html">Login</a>
+                  </li>
+            </ul>
+        </div>
+    </div>             
+</nav>
+<main role="main">
+
+<!--Main Submit Project Section-->
+
+<form>
+    <div class="mx-auto w-75 p-5 align-items-center">
+        <div>
+            <h2 class="h3 mb-3 font-weight-bold">Submit Project</h2>
+        </div> 
+
+        <div class="form-row">
+            <div class="form-group col-md-10">
+              <label for="inputProjectName" class="form-label">Project name</label>
+              <input type="text" class="form-control" id="inputProjectName" placeholder="Enter project name" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-10">
+              <label for="inputProjectAb" class="form-label">Project abstract</label>
+              <textarea class="form-control" rows="6" id="inputProjectAb" placeholder="" required></textarea>
+            </div>
+        </div>    
+
+        <div class="form-row">
+            <div class="form-group col-md-10">
+              <label for="inputAuthors" class="form-label">Author(s)</label>
+              <input type="text" class="form-control" id="inputAuthors" placeholder="Enter author names (sepreated by comma)" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-10">
+              <label for="inputAuthors" class="form-label">Tags</label>
+              <input type="text" class="form-control" id="inputAuthors" placeholder="Use # to tag project with different topics (e.g. #javascript #mangodb" required>
+            </div>
+        </div>
+ 
+          <button type="submit" class="btn btn-primary">Continue</button>  
+    </div>
+</form>
+
+
+
+  <!--The Main Footer-->
+  <br>
+<footer class="card-footer bg-light">
+<p class="card-text text-right">Project Explorer &copy; 2020 Edconect</p>
+</footer>
+
+        </body>
+        </html>
+        
+
+
+
+        
